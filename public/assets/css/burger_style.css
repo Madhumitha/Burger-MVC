@@ -1,0 +1,72 @@
+* {
+  background:#FFC300 ;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px
+}
+
+text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 190px;
+  height: 100px;
+}
+
+#center{
+  display: block;
+  width: 250px;
+  height: 100px;
+  margin: auto;
+}
+
+#burgerName {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+ button {
+  margin-left: 50%;
+  background-color: green
+}
+
+p {
+  text-align: center;
+  margin-left: 80px;
+}  
+
+.hide {
+  display: none;
+} 
+
+#insertDisplay{
+  float: left;
+  margin: 10px;
+  padding-top: 5px;
+  width:30%;
+  height:40%;
+}
+
+#devourbtn {
+ margin-left : 20px;
+ margin-top: 10px;
+ padding-left: -10px;
+ float:left;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+

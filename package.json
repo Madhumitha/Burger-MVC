@@ -1,0 +1,26 @@
+{
+  "name": "burgersequelize",
+  "version": "1.0.0",
+  "description": "### Concept: Node Express Template literals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhumitha/burgerSequelize.git"
+  },
+  "author": "Madhumitha Prabakaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhumitha/burgerSequelize/issues"
+  },
+  "homepage": "https://github.com/Madhumitha/burgerSequelize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {}
+}
