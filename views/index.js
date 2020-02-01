@@ -1,6 +1,6 @@
 const render = function (left, right) {
     return `
-    <img src="../public/assets/img/burger.jpg" alt="Veggie Burger" >
+    <img src="assets/img/burger.jpg" alt="Veggie Burger" >
     <div>
         <text>EAT - DA - BURGER!!!</text>
     </div>
