@@ -26,11 +26,11 @@ $(function() {
         let id= $(this).data("id");
 
         let updatedBurger = {
-            devoured: 1
+            devoured: id
         };
 
         // Send the PUT request
-        $.ajax("/api/burgers/" + ID, {
+        $.ajax("/api/burgers/" + id, {
             type: "PUT",
             data: updatedBurger
         }).then(

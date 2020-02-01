@@ -59,7 +59,7 @@ app.post("/api/burgers", function(req, res) {
  });
 
 app.put("/api/burgers/:id", function(req, res) {
-    var condition = "id = " + req.params.id;
+    var condition =  req.params.id;
   
     console.log("condition", condition);
   
