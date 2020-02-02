@@ -30,7 +30,7 @@ app.get('/', function(req, res) {
           //Send burger names that have a devour value of false to the "names" array, and those that have a devour value of true to the "devour" array
           for(let i = 0; i < data.length; i++) {
             console.log("DATA", data[i].dataValues.burger_name)
-            if(data[i].dataValues.devoured === false) {
+            if(data[i].dataValues.devoured === 0) {
               names.push(leftLayoutView.render(data[i].dataValues.burger_name, i+1))
             } else {
               devour.push(rightLayoutView.render(data[i].dataValues.burger_name, i+1))
