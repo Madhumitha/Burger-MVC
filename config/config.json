@@ -5,7 +5,7 @@
     "database": "burger_db",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false,
+    "operatorsAliases": 0,
     "define" : {
       "timestamps" : false
     }
@@ -16,7 +16,7 @@
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "operatorsAliases": 0
   },
   "production": {
     "username": "root",
@@ -24,6 +24,6 @@
     "database": "burger_db",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "operatorsAliases": 0
   }
 }
